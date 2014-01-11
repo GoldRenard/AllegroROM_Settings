@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="category_system"
+        android:title="@string/pref_header_system"/>
+
+    <CheckBoxPreference
+        android:key="kill_app_longpress_back"
+        android:title="@string/kill_app_longpress_back"
+        android:summary="@string/kill_app_longpress_back_summary"/>
+
+    <PreferenceCategory
+        android:key="category_calls_and_notification"
+        android:title="@string/pref_header_statusbar"/>
+
+    <ListPreference
+        android:key="status_bar_battery"
+        android:dialogTitle="@string/status_bar_battery_title"
+        android:title="@string/status_bar_battery_title"
+        android:entries="@array/entries_status_bar_battery"
+        android:entryValues="@array/values_status_bar_battery" />
+
+    <com.goldrenard.allegrosettings.TransparencyPreference
+        android:title="@string/status_bar_transparency"
+        android:key="status_bar_transparency"
+        android:dialogTitle="@string/status_bar_transparency" />
+
+    <PreferenceCategory
+        android:key="category_calls_and_notification"
+        android:title="@string/pref_header_sound"/>
+
+    <ListPreference
+        android:key="volume_overlay"
+        android:title="@string/volume_overlay_title"
+        android:entries="@array/volume_overlay_entries"
+        android:entryValues="@array/volume_overlay_values" />
+
+    <CheckBoxPreference
+        android:key="volume_adjust_sounds"
+        android:title="@string/volume_adjust_sounds_enable_title"
+        android:summary="@string/volume_adjust_sounds_enable_summary"
+        android:persistent="false" />
+
+    <CheckBoxPreference
+        android:key="volbtn_music_controls"
+        android:title="@string/volbtn_music_controls_title"
+        android:summary="@string/volbtn_music_controls_summary"
+        android:persistent="false" />
+
+</PreferenceScreen>

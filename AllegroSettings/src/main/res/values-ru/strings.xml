@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Настройки AllegroROM</string>
+
+    <string name="pref_header_system">Система</string>
+    <string name="kill_app_longpress_back">Закрытие приложения</string>
+    <string name="kill_app_longpress_back_summary">Долгое нажатие кнопки «Назад» закроет запущенное приложение</string>
+
+    <string name="pref_header_statusbar">Строка состояния</string>
+    <string name="status_bar_battery_title">Стиль индикатора батареи</string>
+    <string name="status_bar_style_icon">Значок</string>
+    <string name="status_bar_style_hidden">Скрытый</string>
+    <string name="status_bar_battery_status_percentage">Процентный</string>
+    <string name="status_bar_battery_status_circle">Круг</string>
+    <string name="status_bar_battery_status_circle_percentage">Круг с процентами</string>
+    <string name="status_bar_transparency">Прозрачность</string>
+
+    <string name="pref_header_sound">Звук и Мультимедиа</string>
+    <string name="volume_overlay_title">Панель громкости</string>
+    <string-array name="volume_overlay_entries">
+        <item>Одиночная</item>
+        <item>Расширяемая</item>
+        <item>Расширенная</item>
+        <item>Нет</item>
+    </string-array>
+    <string name="volume_adjust_sounds_enable_title">Звук при регулировке громкости</string>
+    <string name="volume_adjust_sounds_enable_summary">Воспроизводить звук при изменении громкости кнопками «+» или «-»</string>
+    <string name="volbtn_music_controls_title">Управление проигрывателем</string>
+    <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие кнопок громкости переключает музыкальные треки</string>
+</resources>
