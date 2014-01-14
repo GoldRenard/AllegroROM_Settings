@@ -2,11 +2,9 @@
 <resources>
 
     <string name="app_name">AllegroROM Settings</string>
-
     <string name="pref_header_system">System</string>
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
-
     <string name="pref_header_statusbar">Status Bar</string>
     <string name="status_bar_battery_title">Battery status style</string>
     <string name="status_bar_style_icon">Icon</string>
@@ -14,6 +12,7 @@
     <string name="status_bar_battery_status_percentage">Percentage</string>
     <string name="status_bar_battery_status_circle">Circle</string>
     <string name="status_bar_battery_status_circle_percentage">Circle with percentage</string>
+
     <string-array name="entries_status_bar_battery" translatable="false">
         <item>@string/status_bar_style_icon</item>
         <item>@string/status_bar_battery_status_percentage</item>
@@ -28,10 +27,11 @@
         <item>3</item>
         <item>4</item>
     </string-array>
-    <string name="status_bar_transparency">Transparency</string>
 
+    <string name="status_bar_transparency">Transparency</string>
     <string name="pref_header_sound">Sound and Multimedia</string>
     <string name="volume_overlay_title">Volume panel style</string>
+
     <string-array name="volume_overlay_entries">
         <item>Single</item>
         <item>Expandable</item>
@@ -44,8 +44,19 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+
     <string name="volume_adjust_sounds_enable_title">Volume adjustment sound</string>
     <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting volume with volume rocker</string>
     <string name="volbtn_music_controls_title">Playback control</string>
     <string name="volbtn_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="about_title">About ROM</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_author_title">Author</string>
+    <string name="about_homepage_title">Homapage</string>
+    <string name="about_check_updates">Check updates</string>
+
 </resources>

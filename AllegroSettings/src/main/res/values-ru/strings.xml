@@ -28,4 +28,11 @@
     <string name="volume_adjust_sounds_enable_summary">Воспроизводить звук при изменении громкости кнопками «+» или «-»</string>
     <string name="volbtn_music_controls_title">Управление проигрывателем</string>
     <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие кнопок громкости переключает музыкальные треки</string>
+
+    <string name="about_title">О прошивке</string>
+    <string name="about_version_title">Версия прошивки</string>
+    <string name="about_author_title">Автор прошивки</string>
+    <string name="about_homepage_title">Домашняя страница</string>
+    <string name="about_check_updates">Проверка обновлений</string>
+
 </resources>
